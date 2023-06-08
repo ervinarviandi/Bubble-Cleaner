@@ -1,8 +1,8 @@
 import { BsTelephonePlusFill } from "react-icons/bs";
 const Hero = () => {
   return (
-    <div>
-      <div className=" max-w-6xl mx-auto lg:mt-20 px-4">
+    <div className="w-full bg-black">
+      <div className=" max-w-6xl mx-auto  px-4  h-screen">
         <div className="flex flex-wrap">
           <div className="lg:w-1/2">
             <h2 className="text-white lg:text-5xl text-4xl mt-20 font-bold font-poppins">
