@@ -5,3 +5,22 @@
 body {
   height: 500vh;
 }
+
+.hero {
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.hero img {
+  background: url(/cccchaos.svg);
+  position: absolute;
+  backdrop-filter: blur;
+  backdrop-filter: blur;
+}
+
+@media screen and (max-width: 600px) {
+  .hero {
+    background-image: url(/cccchaos.svg);
+  }
+}
