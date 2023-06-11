@@ -3,7 +3,7 @@ import Card from "./Elements/Card";
 
 const Promo = () => {
   return (
-    <div className="bg-backgrounddark">
+    <div className="bg-backgrounddark" id="promo">
       <section className="w-full  mt-56">
         <div className="lg:max-w-6xl h-min  mx-auto px-4 ">
           <div className="flex justify-between items-center">
@@ -13,7 +13,7 @@ const Promo = () => {
               <FaAngleRight className="lg:ml-4" />
             </a>
           </div>
-          <div className="grid md:grid-cols-4 gap-5 mb-10">
+          <div className="grid md:grid-cols-4 gap-5 ">
             <div className="flex flex-col">
               <Card />
             </div>

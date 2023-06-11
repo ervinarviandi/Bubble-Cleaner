@@ -27,22 +27,22 @@ const Navigation = () => {
           <nav>
             <ul className="flex justify-center items-center gap-x-6">
               <li>
-                <a href="" className="text-white font-poppins ">
+                <a href="/" className="text-white font-poppins ">
                   Home
                 </a>
               </li>
               <li>
-                <a href="" className="text-white font-poppins ">
+                <a href="#hero" className="text-white font-poppins ">
                   About
                 </a>
               </li>
               <li>
-                <a href="" className="text-white font-poppins ">
+                <a href="#features" className="text-white font-poppins ">
                   Project
                 </a>
               </li>
               <li>
-                <a href="" className="text-white font-poppins ">
+                <a href="#promo" className="text-white font-poppins ">
                   Contact
                 </a>
               </li>

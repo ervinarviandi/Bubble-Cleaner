@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  height: 500vh;
+  /* height: 500vh; */
 }
 
 .hero {
