@@ -1,5 +1,3 @@
-import { FaAngleRight } from "react-icons/fa";
-
 const AboutUs = () => {
   return (
     <div className="w-full bg-black " id="about">
@@ -15,10 +13,6 @@ const AboutUs = () => {
               merupakan jasa perawatan premium sepatu yang pertama di Yogyakarta, dan jasa perawatan premium sepatu pertama di Indonesia yang berbasis media sosial. Untuk melayani pelanggan, saat ini Shoes and Care sudah memiliki 70
               workshop di 20 kota di Indonesia. Berdiri di Yogyakarta, Shoes and Care mulai memberikan perawatan sepatu sejak 12 Oktober 2013.
             </p>
-            <button className="py-2 px-4 font-poppins text-lg  text-black bg-white lg:w-5/12 w-6/12 rounded-lg mt-4 flex items-center ">
-              Baca Lebih Lanjut
-              <FaAngleRight className="ml-3" />
-            </button>
           </div>
         </div>
       </div>

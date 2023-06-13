@@ -1,14 +1,12 @@
-import Head from "react";
 import Hero from "./components/Hero";
 import Navigation from "./components/Navigation";
 import Features from "./components/Features";
 import Promo from "./components/Promo";
 import Services from "./components/Services";
 import AboutUs from "./components/AboutUs";
+import Maps from "./components/Maps";
+import Footer from "./components/Footer";
 
-<Head>
-  <title>Bubble Cleaner</title>
-</Head>;
 function App() {
   return (
     <div className="">
@@ -18,6 +16,8 @@ function App() {
       <Promo />
       <Services />
       <AboutUs />
+      <Maps />
+      <Footer />
     </div>
   );
 }
