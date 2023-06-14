@@ -32,7 +32,7 @@ const Hero = () => {
             </div>
           </div>
           <div className="lg:w-1/2">
-            <img src="/hero.png" className="lg:block hidden mt-32 " />
+            <img src="/hero.png" alt="image-hero" className="lg:block hidden mt-32 " />
           </div>
         </div>
       </div>

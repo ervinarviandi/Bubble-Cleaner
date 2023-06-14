@@ -8,7 +8,7 @@ const Promo = () => {
         <div className="lg:max-w-6xl h-min  mx-auto px-4 ">
           <div className="md:flex justify-between items-center md:pt-32   pt-20">
             <h2 className="text-3xl font-poppins text-bold text-white  mb-10">Promo terbaik untuk anda</h2>
-            <a href="" className="text-lg font-poppins text-gray-300 flex items-center hover:text-blue-500 mb-4 ">
+            <a href="/" className="text-lg font-poppins text-gray-300 flex items-center hover:text-blue-500 mb-4 ">
               lihat semua promo
               <FaAngleRight className="ml-4" />
             </a>

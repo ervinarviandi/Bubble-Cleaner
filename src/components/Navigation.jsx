@@ -16,7 +16,7 @@ const Navigation = () => {
         <div className="lg:flex  lg:block justify-between  items-center md:py-2 py-4">
           {/* Mobile Button */}
 
-          <a href="">
+          <a href="/">
             <img src="logo.png" alt="brand" width={90} height={90} className="lg:block hidden" />
           </a>
           <ul
@@ -45,13 +45,13 @@ const Navigation = () => {
             </li>
 
             <li>
-              <button href="" className="font-poppins py-2 px-4 rounded-xl bg-cyan-500 text-white lg:block hidden ">
+              <button href="/" className="font-poppins py-2 px-4 rounded-xl bg-cyan-500 text-white lg:block hidden ">
                 Tentang Kami
               </button>
             </li>
 
-            <a href="" className=" absolute">
-              <img src="logo.png" alt="mobile-brand" width={80} height={80} className="lg:hidden block " />
+            <a href="/" className=" absolute">
+              <img src="/logo.png" alt="mobile-brand" width={80} height={80} className="lg:hidden block " />
             </a>
 
             <div onClick={handleNav} className=" block sm:hidden  z-50 text-white absolute right-10">
