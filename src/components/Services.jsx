@@ -1,6 +1,6 @@
 const Services = () => {
   return (
-    <div className="w-full bg-white">
+    <div className="w-full bg-white" id="product">
       <div className="lg:max-w-6xl mx-auto px-4 mb-10">
         <h2 className="text-3xl font-bold font-poppins text-center mt-10 mb-5">Layanan Kami</h2>
         <p className="font-poppis text-lg text-center mb-10 w-9/12 mx-auto">Kami memberikan berbagai macam layanan untuk perawatan barang kesayangan anda yang akan dikerjakan oleh tim kami yang sudah berpengalaman dan professional.</p>
@@ -28,6 +28,7 @@ const Services = () => {
             </div>
           </div>
         </div>
+        <button></button>
       </div>
     </div>
   );
