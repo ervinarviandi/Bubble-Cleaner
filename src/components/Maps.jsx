@@ -3,7 +3,7 @@ const Maps = () => {
     <div className="w-full bg-black" id="lokasi">
       <div className="h-screen lg:max-w-6xl mx-auto px-4 ">
         <h2 className="text-white text-3xl font-poppins text-center pt-32 mb-5 ">Lokasi Kami</h2>
-        <p className="text-white text-lg font-poppins text-center">Temukan Kami Di Kota Terdekat Sekitar Anda</p>
+        <p className="text-gray-300 text-lg font-poppins text-center">Temukan Kami Di Kota Terdekat Sekitar Anda</p>
         <div style={{ height: "60%", width: "100%" }} className="mt-10 bg-gray-600">
           <iframe
             width="100%"

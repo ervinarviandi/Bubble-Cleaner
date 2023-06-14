@@ -4,13 +4,13 @@ import Card from "./Elements/Card";
 const Promo = () => {
   return (
     <div className="bg-backgrounddark" id="promo">
-      <section className="w-full  mt-56">
+      <section className="w-full  mt-56 ">
         <div className="lg:max-w-6xl h-min  mx-auto px-4 ">
-          <div className="flex justify-between items-center">
-            <h2 className="text-3xl font-poppins text-bold text-white my-10">Promo terbaik untuk anda</h2>
-            <a href="" className="text-lg font-poppins text-gray-400 flex items-center hover:text-blue-500">
+          <div className="md:flex justify-between items-center md:pt-32   pt-20">
+            <h2 className="text-3xl font-poppins text-bold text-white  mb-10">Promo terbaik untuk anda</h2>
+            <a href="" className="text-lg font-poppins text-gray-300 flex items-center hover:text-blue-500 mb-4 ">
               lihat semua promo
-              <FaAngleRight className="lg:ml-4" />
+              <FaAngleRight className="ml-4" />
             </a>
           </div>
           <div className="grid md:grid-cols-4 gap-5 ">

@@ -9,7 +9,7 @@ const Hero = () => {
               Pilihan <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-teal-300">Terbaik</span> untuk barang{" "}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-teal-300">kesayangan</span> anda
             </h2>
-            <p className="text-white text-lg text-gray-200 mt-10 font-poppins">
+            <p className="text-gray-300 text-lg text-gray-200 mt-10 font-poppins">
               Kami menangani perawatan sepatu, tas, topi, dan dompet. Kami melakukan perawatan secara profesional, dengan teknik khusus, serta menggunakan alat dan bahan premium untuk melakukan perawatan. Contact
             </p>
             <button className="px-6 py-2 rounded-lg text-white bg-cyan-500 mt-7 flex items-center font-bold font-poppins">

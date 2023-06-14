@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { GrFormClose } from "react-icons/gr";
 import { HiMenuAlt3 } from "react-icons/hi";
+import "animate.css";
 
 const Navigation = () => {
   const [nav, setNav] = useState(false);
@@ -11,12 +12,12 @@ const Navigation = () => {
 
   return (
     <div className="fixed w-full z-50 bg-black">
-      <div className="w-full max-w-6xl mx-auto z-10 relative bg-black py-4 relative">
+      <div className="w-full max-w-6xl mx-auto z-10 relative bg-black py-4 relative ">
         <div className="lg:flex  lg:block justify-between  items-center md:py-2 py-4">
           {/* Mobile Button */}
 
           <a href="">
-            <img src="logo.png" alt="brand" width={100} height={100} className="lg:block hidden" />
+            <img src="logo.png" alt="brand" width={90} height={90} className="lg:block hidden" />
           </a>
           <ul
             // style={{ color: `${textColor}` }}
@@ -66,7 +67,7 @@ const Navigation = () => {
             }
           >
             <ul>
-              <li className="p-4 text-2xl hover:text-cyan-500 font-poppins text-white">
+              <li className="p-4 text-2xl hover:text-cyan-500 font-poppins text-white hover:animate_animated hover:animate__backInLeft ">
                 <a href="/">Beranda</a>
               </li>
               <hr className="text-sky-500 w-[100%]" />
