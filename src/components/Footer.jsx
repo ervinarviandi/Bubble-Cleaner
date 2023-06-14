@@ -29,7 +29,7 @@ const Footer = () => {
             </div>
             <div className="md:w-1/2">
               <h2 className="text-black font-poppins md:mt-20 mt-7 font-bold text-2xl">Kantor Yogykarta:</h2>
-              <p className="font-poppins text-lg text-gray-600">Jl. Langenastran Kidul No.18, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55131</p>
+              <p className="font-poppins text-lg text-gray-600 mt-4">Jl. Langenastran Kidul No.18, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55131</p>
 
               <h2 className="font-poppins text-black text-2xl mt-7 font-bold">Media Sosial</h2>
 

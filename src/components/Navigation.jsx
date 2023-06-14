@@ -55,7 +55,11 @@ const Navigation = () => {
             </a>
 
             <div onClick={handleNav} className=" block sm:hidden  z-50 text-white absolute right-10">
-              {nav ? <GrFormClose className="w-6 h-6 text-blue-400 bg-cyan-500 rounded-md " /> : <HiMenuAlt3 className="w-6 h-6 text-white bg-cyan-500 rounded-md " />}
+              {nav ? (
+                <GrFormClose className="w-10 h-10 text-blue-400 bg-cyan-500 rounded-md p-2 transition duration-700 " />
+              ) : (
+                <HiMenuAlt3 className="w-10 h-10 text-white bg-cyan-500 rounded-md p-2 transition duration-700 ease-in-out   " />
+              )}
             </div>
           </ul>
 
@@ -67,7 +71,7 @@ const Navigation = () => {
             }
           >
             <ul>
-              <li className="p-4 text-2xl hover:text-cyan-500 font-poppins text-white hover:animate_animated hover:animate__backInLeft ">
+              <li className="p-4 text-2xl hover:text-cyan-500 font-poppins text-white hover:animate_animated hover:animate__backInLeft  ">
                 <a href="/">Beranda</a>
               </li>
               <hr className="text-sky-500 w-[100%]" />

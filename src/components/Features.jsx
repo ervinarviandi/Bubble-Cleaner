@@ -4,7 +4,7 @@ const Features = () => {
       <section className="lg:max-w-6xl mx-auto h-min px-4 ">
         <div className="flex flex-wrap">
           <div className="lg:w-6/12">
-            <img src="/features-img.webp" alt="features-gambar " className="lg:mt-20 mt-48 lg:w-96 w-100  " />
+            <img src="/features-img.webp" alt="features-gambar " className="lg:mt-20 md:mt-48 mt-10 lg:w-96 w-100  " />
           </div>
           <div className="lg:w-6/12">
             <h2 className="lg:text-4xl text-3xl font-bold lg:mt-28 mt-7 lg:text-left text-center font-poppins ">Bagaimana Kami Melakukan Perawatan untuk Barang Kesayangan Anda</h2>
