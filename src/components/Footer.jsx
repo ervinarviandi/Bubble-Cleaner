@@ -5,8 +5,8 @@ import { BsFacebook } from "react-icons/bs";
 
 const Footer = () => {
   return (
-    <div className="w-full bg-white">
-      <div className=" h-min lg:max-w-6xl mx-auto px-7 ">
+    <div className="w-full  bg-white ">
+      <div className=" h-min lg:max-w-6xl mx-auto px-7  ">
         <div className="flex flex-wrap">
           <div className="flex flex-col md:flex-row gap-20 md:gap-32">
             <div className="md:w-1/2">
@@ -46,7 +46,7 @@ const Footer = () => {
 
           <div className=" mt-36 mb-4 mx-auto ">
             <p className="font-poppins text-gray-500 text-md text-center">
-              © copyright 20223 <span className=" font-bold text-cyan-500  border-cyan-500 cursor-pointer"> Cleaner Bubble</span>. All Right Reserved.
+              © Copyright 2023 <span className=" font-bold text-cyan-500  border-cyan-500 cursor-pointer"> Cleaner Bubble</span>. All Right Reserved.
             </p>
           </div>
         </div>

@@ -1,7 +1,7 @@
 const AboutUs = () => {
   return (
     <div className="w-full bg-black " id="about">
-      <div className="lg:max-w-6xl mx-auto px-7 py-20">
+      <div className="lg:max-w-6xl mx-auto px-7 pt-32 ">
         <h2 className="text-3xl font-poppins text-white text-center md:mt-30 ">Tentang Kami</h2>
         <div className="grid md:grid-cols-2 gap-10 mt-10">
           <div className="flex flex-col">
