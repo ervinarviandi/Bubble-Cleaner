@@ -50,11 +50,11 @@ const Navigation = () => {
               </button>
             </li>
 
-            <a href="/" className=" absolute">
+            <a href="/" className=" absolute -left-4">
               <img src="/logo.png" alt="mobile-brand" width={80} height={80} className="lg:hidden block " />
             </a>
 
-            <div onClick={handleNav} className=" block sm:hidden  z-50 text-white absolute right-10">
+            <div onClick={handleNav} className=" block sm:hidden  z-50 text-white absolute right-4">
               {nav ? (
                 <GrFormClose className="w-10 h-10 text-blue-400 bg-cyan-500 rounded-md p-2 transition duration-700 " />
               ) : (
