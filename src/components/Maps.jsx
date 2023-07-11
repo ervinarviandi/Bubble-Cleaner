@@ -1,7 +1,7 @@
 const Maps = () => {
   return (
-    <div className="w-full bg-black" id="lokasi">
-      <div className="lg:h-screen h-min lg:max-w-6xl mx-auto  px-7 ">
+    <div className="w-full bg-black " id="lokasi">
+      <div className="lg:h-screen h-screen lg:max-w-6xl mx-auto  pb-10 px-7 ">
         <h2 className="text-white text-3xl font-poppins text-center pt-32 mb-5 ">Lokasi Kami</h2>
         <p className="text-gray-300 text-lg font-poppins text-center">Temukan Kami Di Kota Terdekat Sekitar Anda</p>
         <div style={{ height: "60%", width: "100%" }} className="py-10  ">
